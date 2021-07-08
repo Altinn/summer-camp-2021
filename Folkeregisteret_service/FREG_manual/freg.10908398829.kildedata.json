@@ -2,14 +2,14 @@
   "falskIdentitet": null,
   "identifikasjonsnummer": [
     {
-      "ajourholdstidspunkt": "2020-12-22T16:08:40.397Z",
+      "ajourholdstidspunkt": "2020-12-22T16:08:40.673Z",
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": null,
       "gyldighetstidspunkt": null,
       "opphoerstidspunkt": null,
       "status": "iBruk",
-      "foedselsEllerDNummer": "10896196710",
+      "foedselsEllerDNummer": "10908398829",
       "identifikatortype": "foedselsnummer"
     }
   ],
@@ -18,11 +18,11 @@
   "legitimasjonsdokument": null,
   "status": [
     {
-      "ajourholdstidspunkt": "2020-12-22T16:08:40.397Z",
+      "ajourholdstidspunkt": "2020-12-22T16:08:40.673Z",
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": null,
-      "gyldighetstidspunkt": "2020-12-22T16:08:40.397Z",
+      "gyldighetstidspunkt": "2020-12-22T16:08:40.673Z",
       "opphoerstidspunkt": null,
       "status": "bosatt"
     }
@@ -38,7 +38,7 @@
       "aarsak": null,
       "gyldighetstidspunkt": null,
       "opphoerstidspunkt": null,
-      "kjoenn": "mann"
+      "kjoenn": "kvinne"
     }
   ],
   "foedsel": [
@@ -49,35 +49,35 @@
       "aarsak": null,
       "gyldighetstidspunkt": null,
       "opphoerstidspunkt": null,
-      "foedselsdato": "1961-09-10",
-      "foedselsaar": "1961",
+      "foedselsdato": "1983-10-10",
+      "foedselsaar": "1983",
       "foedested": null,
-      "foedekommuneINorge": "4624",
+      "foedekommuneINorge": "0301",
       "foedeland": "NOR"
     }
   ],
   "foedselINorge": null,
   "familierelasjon": [
     {
-      "ajourholdstidspunkt": "2020-12-23T10:13:11.295Z",
+      "ajourholdstidspunkt": "2020-12-23T10:13:39.323Z",
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": null,
-      "gyldighetstidspunkt": "1961-09-09T22:00:00Z",
+      "gyldighetstidspunkt": "1983-10-09T23:00:00Z",
       "opphoerstidspunkt": null,
-      "relatertPerson": "16872749024",
+      "relatertPerson": "31854797665",
       "relatertPersonUtenFolkeregisteridentifikator": null,
       "relatertPersonsRolle": "mor",
       "minRolleForPerson": "barn"
     },
     {
-      "ajourholdstidspunkt": "2020-12-23T10:13:11.295Z",
+      "ajourholdstidspunkt": "2020-12-23T10:13:39.323Z",
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": null,
-      "gyldighetstidspunkt": "1961-09-09T22:00:00Z",
+      "gyldighetstidspunkt": "1983-10-09T23:00:00Z",
       "opphoerstidspunkt": null,
-      "relatertPerson": "20902848720",
+      "relatertPerson": "06845097982",
       "relatertPersonUtenFolkeregisteridentifikator": null,
       "relatertPersonsRolle": "far",
       "minRolleForPerson": "barn"
@@ -89,34 +89,22 @@
       "aarsak": null,
       "gyldighetstidspunkt": null,
       "opphoerstidspunkt": null,
-      "relatertPerson": "10896297878",
+      "relatertPerson": "09828498166",
       "relatertPersonUtenFolkeregisteridentifikator": null,
       "relatertPersonsRolle": "ektefelleEllerPartner",
       "minRolleForPerson": "ektefelleEllerPartner"
     },
     {
-      "ajourholdstidspunkt": "2020-12-23T08:57:59.169Z",
+      "ajourholdstidspunkt": "2020-12-23T08:58:09.255Z",
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": null,
-      "gyldighetstidspunkt": "1987-02-09T23:00:00Z",
+      "gyldighetstidspunkt": "2016-11-02T23:00:00Z",
       "opphoerstidspunkt": null,
-      "relatertPerson": "10828798672",
+      "relatertPerson": "03911699523",
       "relatertPersonUtenFolkeregisteridentifikator": null,
       "relatertPersonsRolle": "barn",
-      "minRolleForPerson": "far"
-    },
-    {
-      "ajourholdstidspunkt": "2020-12-23T08:57:59.169Z",
-      "erGjeldende": true,
-      "kilde": "KILDE_DSF",
-      "aarsak": null,
-      "gyldighetstidspunkt": "1996-01-15T23:00:00Z",
-      "opphoerstidspunkt": null,
-      "relatertPerson": "16819698876",
-      "relatertPersonUtenFolkeregisteridentifikator": null,
-      "relatertPersonsRolle": "barn",
-      "minRolleForPerson": "far"
+      "minRolleForPerson": "mor"
     }
   ],
   "sivilstand": [
@@ -125,93 +113,136 @@
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": "Vigsel",
-      "gyldighetstidspunkt": "2008-09-22T00:00:00Z",
+      "gyldighetstidspunkt": "2009-03-04T00:00:00Z",
       "opphoerstidspunkt": null,
       "sivilstand": "gift",
-      "sivilstandsdato": "2008-09-22",
+      "sivilstandsdato": "2009-03-04",
       "myndighet": null,
       "kommune": null,
       "sted": null,
       "utland": null,
-      "relatertVedSivilstand": "10896297878"
+      "relatertVedSivilstand": "09828498166"
     }
   ],
   "doedsfall": null,
   "navn": [
     {
-      "ajourholdstidspunkt": "2021-01-30T02:49:15.505Z",
+      "ajourholdstidspunkt": "2021-01-30T02:48:57.013Z",
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": "Første gangs navnevalg",
       "gyldighetstidspunkt": "2018-12-31T23:00:00Z",
       "opphoerstidspunkt": null,
-      "fornavn": "USNOBBET",
-      "mellomnavn": null,
-      "etternavn": "FARTSHUMP",
-      "forkortetNavn": "FARTSHUMP USNOBBET",
+      "fornavn": "SUBJEKTIV",
+      "mellomnavn": "LISTE",
+      "etternavn": "KØYESENG",
+      "forkortetNavn": "KØYESENG SUBJEKTIV LISTE",
       "originaltNavn": null
     }
   ],
   "adressebeskyttelse": null,
   "bostedsadresse": [
     {
-      "ajourholdstidspunkt": "2021-02-02T03:52:06.681Z",
+      "ajourholdstidspunkt": "2021-02-02T03:51:04.905Z",
       "erGjeldende": true,
       "kilde": "DP055_veinummer",
       "aarsak": "Årsakskode fra DSF: ",
-      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "gyldighetstidspunkt": "2020-12-16T23:00:00Z",
       "opphoerstidspunkt": null,
       "vegadresse": {
-        "kommunenummer": "4624",
+        "kommunenummer": "0301",
         "bruksenhetsnummer": "H0101",
         "bruksenhetstype": "bolig",
-        "adressenavn": "Klokkargarden",
+        "adressenavn": "Terrasseveien",
         "adressenummer": {
-          "husnummer": "10",
-          "husbokstav": "A"
+          "husnummer": "130",
+          "husbokstav": null
         },
-        "adressekode": "1045",
+        "adressekode": "17433",
         "adressetilleggsnavn": null,
         "poststed": {
-          "poststedsnavn": "OS",
-          "postnummer": "5200"
+          "poststedsnavn": "OSLO",
+          "postnummer": "0682"
         },
         "coAdressenavn": null
       },
       "matrikkeladresse": null,
       "ukjentBosted": null,
-      "adresseIdentifikatorFraMatrikkelen": "499146952",
+      "adresseIdentifikatorFraMatrikkelen": "285778600",
       "naerAdresseIdentifikatorFraMatrikkelen": null,
       "adressegradering": "ugradert",
-      "flyttedato": "2020-12-17",
-      "grunnkrets": 306,
-      "stemmekrets": 3,
-      "skolekrets": 7,
+      "flyttedato": "2020-12-16",
+      "grunnkrets": 3619,
+      "stemmekrets": 1305,
+      "skolekrets": 175,
       "kirkekrets": 1
     },
     {
-      "ajourholdstidspunkt": "2020-12-17T23:00:00Z",
+      "ajourholdstidspunkt": "2021-01-28T15:23:43.463Z",
       "erGjeldende": false,
       "kilde": "KILDE_DSF",
-      "aarsak": "Flytting innen kommunen",
-      "gyldighetstidspunkt": null,
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-16T23:00:00Z",
       "opphoerstidspunkt": null,
-      "vegadresse": null,
-      "matrikkeladresse": null,
-      "ukjentBosted": {
-        "bostedskommune": "3427"
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Terrasseveien",
+        "adressenummer": null,
+        "adressekode": "17433",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0682"
+        },
+        "coAdressenavn": null
       },
-      "adresseIdentifikatorFraMatrikkelen": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "285778600",
       "naerAdresseIdentifikatorFraMatrikkelen": null,
       "adressegradering": "ugradert",
-      "flyttedato": "0001-01-01",
-      "grunnkrets": null,
-      "stemmekrets": null,
-      "skolekrets": null,
-      "kirkekrets": null
+      "flyttedato": "2020-12-16",
+      "grunnkrets": 3619,
+      "stemmekrets": 1305,
+      "skolekrets": 175,
+      "kirkekrets": 1
     },
     {
-      "ajourholdstidspunkt": "2020-12-17T23:00:00Z",
+      "ajourholdstidspunkt": "2021-01-08T12:37:09.298Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-16T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "bruksenhetsnummer": "7",
+        "bruksenhetstype": null,
+        "adressenavn": "Kalbakkveien",
+        "adressenummer": null,
+        "adressekode": "13595",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0953"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "285817986",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-16",
+      "grunnkrets": 4017,
+      "stemmekrets": 1002,
+      "skolekrets": 143,
+      "kirkekrets": 3
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-16T23:00:00Z",
       "erGjeldende": false,
       "kilde": "KILDE_DSF",
       "aarsak": "Flytting innen kommunen",
@@ -220,7 +251,7 @@
       "vegadresse": null,
       "matrikkeladresse": null,
       "ukjentBosted": {
-        "bostedskommune": "3802"
+        "bostedskommune": "4650"
       },
       "adresseIdentifikatorFraMatrikkelen": null,
       "naerAdresseIdentifikatorFraMatrikkelen": null,
@@ -249,8 +280,8 @@
       "adressegradering": "ugradert",
       "kontaktadresseIFrittFormat": {
         "adresselinje": [
-          "Klokkargarden",
-          "5200 OS",
+          "Kalbakkveien",
+          "0953 OSLO",
           "Norge"
         ],
         "landkode": null
@@ -270,8 +301,8 @@
       "vegadresse": null,
       "postadresseIFrittFormat": {
         "adresselinje": [
-          "Klokkargarden",
-          "5200 OS",
+          "Kalbakkveien",
+          "0953 OSLO",
           "Norge"
         ],
         "poststed": null
@@ -279,39 +310,19 @@
       "adresseIdentifikatorFraMatrikkelen": null
     },
     {
-      "ajourholdstidspunkt": "2020-12-17T23:00:00Z",
+      "ajourholdstidspunkt": "2020-12-16T23:00:00Z",
       "erGjeldende": false,
       "kilde": "KILDE_DSF",
       "aarsak": null,
-      "gyldighetstidspunkt": null,
+      "gyldighetstidspunkt": "2020-01-08T23:00:00Z",
       "opphoerstidspunkt": null,
       "adressegradering": "ugradert",
       "postboksadresse": null,
       "vegadresse": null,
       "postadresseIFrittFormat": {
         "adresselinje": [
-          "Bjerkeliveien",
-          "3086 HOLMESTRAND",
-          "Norge"
-        ],
-        "poststed": null
-      },
-      "adresseIdentifikatorFraMatrikkelen": null
-    },
-    {
-      "ajourholdstidspunkt": "2020-12-17T23:00:00Z",
-      "erGjeldende": false,
-      "kilde": "KILDE_DSF",
-      "aarsak": null,
-      "gyldighetstidspunkt": null,
-      "opphoerstidspunkt": null,
-      "adressegradering": "ugradert",
-      "postboksadresse": null,
-      "vegadresse": null,
-      "postadresseIFrittFormat": {
-        "adresselinje": [
-          "Savalveien",
-          "2500 TYNSET",
+          "Åsahøgda",
+          "6823 SANDANE",
           "Norge"
         ],
         "poststed": null
@@ -320,17 +331,32 @@
     }
   ],
   "postadresseIUtlandet": null,
-  "foreldreansvar": null,
+  "foreldreansvar": [
+    {
+      "ajourholdstidspunkt": "2021-04-08T10:11:36.007Z",
+      "erGjeldende": true,
+      "kilde": "DP051_korr_famfrel",
+      "aarsak": "DP051_korr_famfrel",
+      "gyldighetstidspunkt": "2016-11-02T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "ansvar": "felles",
+      "ansvarssubjekt": "03911699523",
+      "ansvarlig": "10908398829",
+      "ansvarligOrganisasjon": null,
+      "ansvarligUtenIdentifikator": null,
+      "ansvarssubjektUtenIdentifikator": null
+    }
+  ],
   "statsborgerskap": [
     {
       "ajourholdstidspunkt": null,
       "erGjeldende": true,
       "kilde": "KILDE_DSF",
       "aarsak": null,
-      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "gyldighetstidspunkt": "2020-12-16T23:00:00Z",
       "opphoerstidspunkt": null,
       "statsborgerskap": "NOR",
-      "ervervsdato": "2020-12-18"
+      "ervervsdato": "2020-12-17"
     }
   ],
   "bibehold": null,

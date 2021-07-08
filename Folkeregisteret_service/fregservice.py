@@ -47,7 +47,7 @@ class Person:
     # Saving relevant attributes to variables and discards the rest. 
     def _parse_freg_person_json(self, json_object: json):
         self._identifikasjonsnummer = json_object["identifikasjonsnummer"]
-        self._delt_bosted = json_object["deltBosted"]
+        self._delt_bosted = json_object["deltBosted"] # likely not needed, only relevant for kids
         self._sivilstand = json_object["sivilstand"]
         self._familierelasjon = json_object["familierelasjon"]
         self._navn = json_object["navn"]
@@ -71,9 +71,20 @@ class Person:
         
         return False
 
+    def _copy_key_from_dict_to_target(self, key: str, original_dict: dict, target_dict: dict):
+        try:
+            target_dict[key] = original_dict[key]
+        except KeyError:
+            target_dict[key] = None
+
     @property
     def identifikasjonsnummer(self):
-        return self._identifikasjonsnummer
+        id = {}
+
+        self._copy_key_from_dict_to_target("foedselsEllerDNummer", self._identifikasjonsnummer[0], id)
+        self._copy_key_from_dict_to_target("identifikatortype", self._identifikasjonsnummer[0], id)
+
+        return id
 
     @property
     def delt_bosted(self):
@@ -81,15 +92,34 @@ class Person:
 
     @property
     def sivilstand(self):
-        return self._sivilstand
+        sivil = {}
+        self._copy_key_from_dict_to_target("sivilstand", self._sivilstand[0], sivil)
+        self._copy_key_from_dict_to_target("sivilstandsdato", self._sivilstand[0], sivil)
+        self._copy_key_from_dict_to_target("gyldighetstidspunkt", self._sivilstand[0], sivil)
+
+        return sivil
 
     @property
     def familierelasjon(self):
-        return self._familierelasjon
+        relasjon = [dict() for x in range(len(self._familierelasjon))]
+        
+        for i in range(len(self._familierelasjon)):
+            self._copy_key_from_dict_to_target("minRolleForPerson", self._familierelasjon[i], relasjon[i])
+            self._copy_key_from_dict_to_target("relatertPersonsRolle", self._familierelasjon[i], relasjon[i])
+            self._copy_key_from_dict_to_target("relatertPerson", self._familierelasjon[i], relasjon[i])
+
+        return relasjon
 
     @property
     def navn(self):
-        return self._navn
+        navn_dict = {}
+        self._copy_key_from_dict_to_target("fornavn", self._navn[0], navn_dict)
+        self._copy_key_from_dict_to_target("mellomnavn", self._navn[0], navn_dict)
+        self._copy_key_from_dict_to_target("etternavn", self._navn[0], navn_dict)
+        self._copy_key_from_dict_to_target("forkortetNavn", self._navn[0], navn_dict)
+        self._copy_key_from_dict_to_target("originaltNavn", self._navn[0], navn_dict)
+
+        return navn_dict
 
     @property
     def adressebeskyttelse(self):
@@ -102,13 +132,20 @@ class Person:
         if self._is_address_guarded():
             return None
 
+        bosted = {}
+
         # Loop through all adresses and remove anyone with "graderingsnivaa: strengtFortrolig"
         for i in range (len(self._bostedsadresse)):
             if "graderingsnivaa" in self._bostedsadresse[i] and self._bostedsadresse[i]["graderingsnivaa"] == "strengtFortrolig":
                 print("Bostedsadresse gradert strengt fortrolig")
                 self._bostedsadresse[i] = None
+            if "erGjeldende" in self._bostedsadresse[i] and self._bostedsadresse[i]["erGjeldende"]:
+                self._copy_key_from_dict_to_target("adresseIdentifikatorFraMatrikkelen", self._bostedsadresse[i], bosted)
+                self._copy_key_from_dict_to_target("skolekrets", self._bostedsadresse[i], bosted)
+                self._copy_key_from_dict_to_target("vegadresse", self._bostedsadresse[i], bosted)
+                self._copy_key_from_dict_to_target("ukjentBosted", self._bostedsadresse[i], bosted)            
 
-        return self._bostedsadresse
+        return bosted
         
     @property
     def preferert_kontaktadresse(self):
@@ -116,13 +153,18 @@ class Person:
         if self._is_address_guarded():
             return None
 
+        kontaktadresse = {}
+
         # Loop through all adresses and remove anyone with "graderingsnivaa: strengtFortrolig"
         for i in range (len(self._preferert_kontaktadresse)):
             if "graderingsnivaa" in self._preferert_kontaktadresse[i] and self._preferert_kontaktadresse[i]["graderingsnivaa"] == "strengtFortrolig":
                 print("Bostedsadresse gradert strengt fortrolig")
                 self._preferert_kontaktadresse[i] = None
+            if "erGjeldende" in self._preferert_kontaktadresse[i] and self._preferert_kontaktadresse[i]["erGjeldende"]:
+                self._copy_key_from_dict_to_target("kontaktadresseIFrittFormat", self._preferert_kontaktadresse[i], kontaktadresse)
+                self._copy_key_from_dict_to_target("valg", self._preferert_kontaktadresse[i], kontaktadresse)
 
-        return self._preferert_kontaktadresse
+        return kontaktadresse
              
     @property
     def postadresse(self):
@@ -130,20 +172,42 @@ class Person:
         if self._is_address_guarded():
             return None
 
+        post = {}
+
         # Loop through all adresses and remove anyone with "graderingsnivaa: strengtFortrolig"
         for i in range (len(self._postadresse)):
             if "graderingsnivaa" in self._postadresse[i] and self._postadresse[i]["graderingsnivaa"] == "strengtFortrolig":
                 print("Postadresse gradert strengt fortrolig")
                 self._postadresse[i] = None
-        
-        return self._postadresse
+            if "erGjeldende" in self._postadresse[i] and self._postadresse[i]["erGjeldende"]:
+                self._copy_key_from_dict_to_target("postadresseIFrittFormat", self._postadresse[i], post)
+                self._copy_key_from_dict_to_target("postboksadresse", self._postadresse[i], post)
+                self._copy_key_from_dict_to_target("vegadresse", self._postadresse[i], post)
+
+        return post
              
     @property
     def foreldreansvar(self):
-        return self._foreldreansvar
+        ansvar = {}
+        if self._foreldreansvar is not None:
+            ansvar = [dict() for x in range(len(self._foreldreansvar))]
+
+            for i in range(len(self._foreldreansvar)):
+                if "erGjeldende" in self._foreldreansvar[i] and self._foreldreansvar[i]["erGjeldende"]:
+                    self._copy_key_from_dict_to_target("ansvar", self._foreldreansvar[i], ansvar)
+                    self._copy_key_from_dict_to_target("ansvarssubjekt", self._foreldreansvar[i], ansvar[i])
+                    self._copy_key_from_dict_to_target("ansvarlig", self._foreldreansvar[i], ansvar[i])
+                    self._copy_key_from_dict_to_target("ansvarligUtenIdentifikator", self._foreldreansvar[i], ansvar[i])
+                    self._copy_key_from_dict_to_target("ansvarssubjektUtenIdentifikator", self._foreldreansvar[i], ansvar[i])
+
+        return ansvar
 
     @property
     def foedsel(self):
+        birth = {}
+        self._copy_key_from_dict_to_target("foedselsaar", self._foedsel[0], birth)
+        self._copy_key_from_dict_to_target("foedselsdato", self._foedsel[0], birth)
+
         return self._foedsel
 
     # All relevant information on a person
