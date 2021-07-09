@@ -8,14 +8,25 @@ app = Flask(__name__)
 # $env:FLASK_APP = path
 # flask run
 
-@app.route("/batch", defaults={'personnummer': None}, methods=['GET'])
-@app.route("/batch/<personnummer>", methods=['GET'])
-def batch(personnummer):
+@app.route("/person", defaults={'personnummer': None}, methods=['GET'])
+@app.route("/person/<personnummer>", methods=['GET'])
+def person(personnummer):
     if request.method == 'GET':
         if personnummer is not None:
             personnummer = personnummer+".json"
         person = Person(file_name=personnummer)
         return jsonify(person.batch)
+
+
+@app.route("/batch", methods=['GET'])
+def single():
+    if request.method == 'GET':
+        number_of_available_people = Person().get_number_of_files_in_directory()
+
+        all_people = [dict() for x in range(number_of_available_people)]
+        for i in range (number_of_available_people):
+            all_people[i] = Person(file_position_in_directory=i).batch
+        return jsonify(all_people)
     
 if __name__ == "__main__":
     app.run(debug=True)

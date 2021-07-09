@@ -50,6 +50,10 @@ class Person:
         for key in json_object:
             print (key)
 
+    def get_number_of_files_in_directory(self, local_file_path: str = "\\FREG_manual\\"):
+        filepath = str(pathlib.Path(__file__).parent.resolve()) + local_file_path
+        return len([f for f in listdir(filepath) if isfile(join(filepath, f))])
+
     # Saving relevant attributes to variables and discards the rest. 
     def _parse_freg_person_json(self, json_object: json):
         self._identifikasjonsnummer = json_object["identifikasjonsnummer"]
@@ -108,6 +112,9 @@ class Person:
 
     @property
     def familierelasjon(self):
+        if self._familierelasjon is None:
+            return None
+
         relasjon = [dict() for x in range(len(self._familierelasjon))]
         
         for i in range(len(self._familierelasjon)):
@@ -136,7 +143,7 @@ class Person:
     @property
     def bostedsadresse(self):
         # Removes any address for a person with "adressebeskyttelse: strengtFortrolig"
-        if self._is_address_guarded():
+        if self._is_address_guarded() or self._bostedsadresse is None:
             return None
 
         bosted = {}
@@ -157,7 +164,7 @@ class Person:
     @property
     def preferert_kontaktadresse(self):
         # Removes any address for a person with "adressebeskyttelse: strengtFortrolig"
-        if self._is_address_guarded():
+        if self._is_address_guarded() or self._preferert_kontaktadresse is None:
             return None
 
         kontaktadresse = {}
@@ -176,7 +183,7 @@ class Person:
     @property
     def postadresse(self):
         # Removes any address for a person with "adressebeskyttelse: strengtFortrolig"
-        if self._is_address_guarded():
+        if self._is_address_guarded() or self._postadresse is None:
             return None
 
         post = {}
@@ -244,3 +251,6 @@ class Person:
 #             # print (date_of_birth)
 
 # list_personnummer_of_adults()
+
+person = Person()
+print (person.get_number_of_files_in_directory())
