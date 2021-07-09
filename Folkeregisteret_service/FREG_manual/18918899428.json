@@ -1,0 +1,525 @@
+{
+  "falskIdentitet": null,
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:12.742Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "status": "iBruk",
+      "foedselsEllerDNummer": "18918899428",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "identitetsgrunnlag": null,
+  "kontaktinformasjonForDoedsbo": null,
+  "legitimasjonsdokument": null,
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:12.742Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-22T16:09:12.742Z",
+      "opphoerstidspunkt": null,
+      "status": "bosatt"
+    }
+  ],
+  "utlendingsmyndighetenesIdentifikasjonsnummer": null,
+  "utenlandskPersonidentifikasjon": null,
+  "deltBosted": null,
+  "kjoenn": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "kjoenn": "kvinne"
+    }
+  ],
+  "foedsel": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "foedselsdato": "1988-11-18",
+      "foedselsaar": "1988",
+      "foedested": null,
+      "foedekommuneINorge": "3807",
+      "foedeland": "NOR"
+    }
+  ],
+  "foedselINorge": null,
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-12-23T10:51:38.64Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "1988-11-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "19866399851",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T10:51:38.64Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "1988-11-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "27886597350",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "relatertPerson": "04838698536",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T09:10:58.061Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2015-11-19T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "20911599466",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    }
+  ],
+  "sivilstand": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2008-05-26T00:00:00Z",
+      "opphoerstidspunkt": null,
+      "sivilstand": "gift",
+      "sivilstandsdato": "2008-05-26",
+      "myndighet": null,
+      "kommune": null,
+      "sted": null,
+      "utland": null,
+      "relatertVedSivilstand": "04838698536"
+    }
+  ],
+  "doedsfall": null,
+  "navn": [
+    {
+      "ajourholdstidspunkt": "2021-01-30T03:08:54.151Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2018-12-31T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "fornavn": "KJÆR",
+      "mellomnavn": null,
+      "etternavn": "UNDULAT",
+      "forkortetNavn": "UNDULAT KJÆR",
+      "originaltNavn": null
+    }
+  ],
+  "adressebeskyttelse": null,
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2021-02-02T04:49:57.231Z",
+      "erGjeldende": true,
+      "kilde": "DP055_veinummer",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-15T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Saudalen",
+        "adressenummer": {
+          "husnummer": "16",
+          "husbokstav": null
+        },
+        "adressekode": "51530",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "MORVIK",
+          "postnummer": "5124"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "256932195",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-15",
+      "grunnkrets": 806,
+      "stemmekrets": 23,
+      "skolekrets": null,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2021-01-28T15:17:41.028Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-15T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Saudalen",
+        "adressenummer": null,
+        "adressekode": "51530",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "MORVIK",
+          "postnummer": "5124"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "256932195",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-15",
+      "grunnkrets": 806,
+      "stemmekrets": 23,
+      "skolekrets": null,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2021-01-08T13:31:26.381Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-15T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "3807",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Klyveflata",
+        "adressenummer": null,
+        "adressekode": "50950",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "SKIEN",
+          "postnummer": "3740"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "41762063",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-15",
+      "grunnkrets": 807,
+      "stemmekrets": 6,
+      "skolekrets": 19,
+      "kirkekrets": 2
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "3050"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "5401"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "5001"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "3049"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "5001"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    }
+  ],
+  "oppholdsadresse": null,
+  "innflytting": null,
+  "utflytting": null,
+  "brukAvSamiskSpraak": null,
+  "forholdTilSametingetsValgmanntall": null,
+  "preferertKontaktadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "Klyveflata",
+          "3740 SKIEN",
+          "Norge"
+        ],
+        "landkode": null
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Klyveflata",
+          "3740 SKIEN",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Kvitungevegen",
+          "9100 KVALØYSLETTA",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2018-02-12T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Fosshåggåvegen",
+          "7549 TANEM",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Haugerudbråtan",
+          "3408 TRANBY",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": null,
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-15T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Romolslia",
+          "7029 TRONDHEIM",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    }
+  ],
+  "postadresseIUtlandet": null,
+  "foreldreansvar": [
+    {
+      "ajourholdstidspunkt": "2021-04-08T13:55:34.254Z",
+      "erGjeldende": true,
+      "kilde": "DP051_korr_famfrel",
+      "aarsak": "DP051_korr_famfrel",
+      "gyldighetstidspunkt": "2015-11-19T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "ansvar": "felles",
+      "ansvarssubjekt": "20911599466",
+      "ansvarlig": "18918899428",
+      "ansvarligOrganisasjon": null,
+      "ansvarligUtenIdentifikator": null,
+      "ansvarssubjektUtenIdentifikator": null
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-15T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-12-16"
+    }
+  ],
+  "bibehold": null,
+  "opphold": null,
+  "vergemaalEllerFremtidsfullmakt": null
+}

@@ -1,0 +1,435 @@
+{
+  "falskIdentitet": null,
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:45.608Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "status": "iBruk",
+      "foedselsEllerDNummer": "26919398832",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "identitetsgrunnlag": null,
+  "kontaktinformasjonForDoedsbo": null,
+  "legitimasjonsdokument": null,
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:45.608Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-22T16:09:45.608Z",
+      "opphoerstidspunkt": null,
+      "status": "bosatt"
+    }
+  ],
+  "utlendingsmyndighetenesIdentifikasjonsnummer": null,
+  "utenlandskPersonidentifikasjon": null,
+  "deltBosted": null,
+  "kjoenn": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "kjoenn": "kvinne"
+    }
+  ],
+  "foedsel": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "foedselsdato": "1993-11-26",
+      "foedselsaar": "1993",
+      "foedested": null,
+      "foedekommuneINorge": "1870",
+      "foedeland": "NOR"
+    }
+  ],
+  "foedselINorge": null,
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-12-23T11:28:04.996Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "1993-11-25T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "07847096831",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T11:28:04.996Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "1993-11-25T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "28896696345",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "relatertPerson": "11879597511",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T09:23:56.367Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2017-11-21T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "22911799042",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    }
+  ],
+  "sivilstand": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2017-11-20T00:00:00Z",
+      "opphoerstidspunkt": null,
+      "sivilstand": "gift",
+      "sivilstandsdato": "2017-11-20",
+      "myndighet": null,
+      "kommune": null,
+      "sted": null,
+      "utland": null,
+      "relatertVedSivilstand": "11879597511"
+    }
+  ],
+  "doedsfall": null,
+  "navn": [
+    {
+      "ajourholdstidspunkt": "2021-01-30T03:19:19.393Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2018-12-31T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "fornavn": "USELVSTENDIG",
+      "mellomnavn": null,
+      "etternavn": "EPLEKAKE",
+      "forkortetNavn": "EPLEKAKE USELVSTENDIG",
+      "originaltNavn": null
+    }
+  ],
+  "adressebeskyttelse": null,
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2021-06-14T13:56:16.113Z",
+      "erGjeldende": true,
+      "kilde": "Synutopia",
+      "aarsak": "Syntetisk datagenerering",
+      "gyldighetstidspunkt": "2021-06-14T13:56:16.113Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "5412",
+        "bruksenhetsnummer": null,
+        "bruksenhetstype": null,
+        "adressenavn": "Grovfjordveien",
+        "adressenummer": {
+          "husnummer": "1629",
+          "husbokstav": null
+        },
+        "adressekode": "1124",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "GROVFJORD",
+          "postnummer": "9446"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": null,
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2021-06-10T02:13:31.311Z",
+      "erGjeldende": false,
+      "kilde": "Synutopia",
+      "aarsak": "Syntetisk datagenerering",
+      "gyldighetstidspunkt": "2021-06-10T02:13:31.311Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "5412",
+        "bruksenhetsnummer": null,
+        "bruksenhetstype": null,
+        "adressenavn": "Blåfjellveien",
+        "adressenummer": {
+          "husnummer": "519",
+          "husbokstav": null
+        },
+        "adressekode": "1087",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "TOVIK",
+          "postnummer": "9445"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": null,
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2021-02-02T05:21:57.207Z",
+      "erGjeldende": false,
+      "kilde": "DP055_veinummer",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Ullern Gårds vei",
+        "adressenummer": {
+          "husnummer": "11",
+          "husbokstav": "K"
+        },
+        "adressekode": "20599",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0382"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "285800045",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-17",
+      "grunnkrets": 5401,
+      "stemmekrets": 602,
+      "skolekrets": 302,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2021-01-28T15:29:33.044Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Ullern Gårds vei",
+        "adressenummer": null,
+        "adressekode": "20599",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0382"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "285800045",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-17",
+      "grunnkrets": 5401,
+      "stemmekrets": 602,
+      "skolekrets": 302,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2021-01-08T13:58:54.915Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "1870",
+        "bruksenhetsnummer": "6",
+        "bruksenhetstype": null,
+        "adressenavn": "Nordre Frydenlund alle",
+        "adressenummer": null,
+        "adressekode": "4000",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "SORTLAND",
+          "postnummer": "8400"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "243774725",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-17",
+      "grunnkrets": 209,
+      "stemmekrets": 3,
+      "skolekrets": 5,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-17T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "1130"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    }
+  ],
+  "oppholdsadresse": null,
+  "innflytting": null,
+  "utflytting": null,
+  "brukAvSamiskSpraak": null,
+  "forholdTilSametingetsValgmanntall": null,
+  "preferertKontaktadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "Nordre Frydenlund alle",
+          "8400 SORTLAND",
+          "Norge"
+        ],
+        "landkode": null
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Nordre Frydenlund alle",
+          "8400 SORTLAND",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-17T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Ryfylkevegen",
+          "4100 JØRPELAND",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    }
+  ],
+  "postadresseIUtlandet": null,
+  "foreldreansvar": [
+    {
+      "ajourholdstidspunkt": "2021-04-08T14:19:08.076Z",
+      "erGjeldende": true,
+      "kilde": "DP051_korr_famfrel",
+      "aarsak": "DP051_korr_famfrel",
+      "gyldighetstidspunkt": "1983-06-10T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "ansvar": "felles",
+      "ansvarssubjekt": "22911799042",
+      "ansvarlig": "26919398832",
+      "ansvarligOrganisasjon": null,
+      "ansvarligUtenIdentifikator": null,
+      "ansvarssubjektUtenIdentifikator": null
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-12-18"
+    }
+  ],
+  "bibehold": null,
+  "opphold": null,
+  "vergemaalEllerFremtidsfullmakt": null
+}

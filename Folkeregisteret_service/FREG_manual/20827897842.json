@@ -1,0 +1,313 @@
+{
+  "falskIdentitet": null,
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:17.952Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "status": "iBruk",
+      "foedselsEllerDNummer": "20827897842",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "identitetsgrunnlag": null,
+  "kontaktinformasjonForDoedsbo": null,
+  "legitimasjonsdokument": null,
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:17.952Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-22T16:09:17.952Z",
+      "opphoerstidspunkt": null,
+      "status": "bosatt"
+    }
+  ],
+  "utlendingsmyndighetenesIdentifikasjonsnummer": null,
+  "utenlandskPersonidentifikasjon": null,
+  "deltBosted": null,
+  "kjoenn": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "kjoenn": "kvinne"
+    }
+  ],
+  "foedsel": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "foedselsdato": "1978-02-20",
+      "foedselsaar": "1978",
+      "foedested": null,
+      "foedekommuneINorge": "4650",
+      "foedeland": "NOR"
+    }
+  ],
+  "foedselINorge": null,
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-12-23T10:57:17.159Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "1978-02-19T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "05905598890",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T10:57:17.159Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "1978-02-19T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "03875498117",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "relatertPerson": "18817896738",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T09:12:50.12Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2002-03-21T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "22830298944",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T09:12:50.12Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2013-09-03T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "04891399400",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    }
+  ],
+  "sivilstand": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2012-04-04T00:00:00Z",
+      "opphoerstidspunkt": null,
+      "sivilstand": "gift",
+      "sivilstandsdato": "2012-04-04",
+      "myndighet": null,
+      "kommune": null,
+      "sted": null,
+      "utland": null,
+      "relatertVedSivilstand": "18817896738"
+    }
+  ],
+  "doedsfall": null,
+  "navn": [
+    {
+      "ajourholdstidspunkt": "2021-01-30T03:06:24.684Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2018-12-31T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "fornavn": "OFFISIELL",
+      "mellomnavn": "BRANNGATE",
+      "etternavn": "SOL",
+      "forkortetNavn": "SOL OFFISIELL BRANNGATE",
+      "originaltNavn": null
+    }
+  ],
+  "adressebeskyttelse": null,
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2021-02-02T04:42:37.647Z",
+      "erGjeldende": true,
+      "kilde": "DP055_veinummer",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-16T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "4650",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Gotevegen",
+        "adressenummer": {
+          "husnummer": "75",
+          "husbokstav": null
+        },
+        "adressekode": "1015",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "SANDANE",
+          "postnummer": "6823"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "100186798",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-16",
+      "grunnkrets": 108,
+      "stemmekrets": 6,
+      "skolekrets": 13,
+      "kirkekrets": 5
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-16T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Flytting innen kommunen",
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "vegadresse": null,
+      "matrikkeladresse": null,
+      "ukjentBosted": {
+        "bostedskommune": "1547"
+      },
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "0001-01-01",
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    }
+  ],
+  "oppholdsadresse": null,
+  "innflytting": null,
+  "utflytting": null,
+  "brukAvSamiskSpraak": null,
+  "forholdTilSametingetsValgmanntall": null,
+  "preferertKontaktadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "Gotevegen",
+          "6823 SANDANE",
+          "Norge"
+        ],
+        "landkode": null
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Gotevegen",
+          "6823 SANDANE",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-16T23:00:00Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Horremsvegen",
+          "6480 AUKRA",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    }
+  ],
+  "postadresseIUtlandet": null,
+  "foreldreansvar": [
+    {
+      "ajourholdstidspunkt": "2021-04-08T10:12:53.776Z",
+      "erGjeldende": true,
+      "kilde": "DP051_korr_famfrel",
+      "aarsak": "DP051_korr_famfrel",
+      "gyldighetstidspunkt": "2013-09-03T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "ansvar": "felles",
+      "ansvarssubjekt": "04891399400",
+      "ansvarlig": "20827897842",
+      "ansvarligOrganisasjon": null,
+      "ansvarligUtenIdentifikator": null,
+      "ansvarssubjektUtenIdentifikator": null
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-16T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-12-17"
+    }
+  ],
+  "bibehold": null,
+  "opphold": null,
+  "vergemaalEllerFremtidsfullmakt": null
+}

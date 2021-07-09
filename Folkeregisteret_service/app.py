@@ -8,10 +8,13 @@ app = Flask(__name__)
 # $env:FLASK_APP = path
 # flask run
 
-@app.route("/batch", methods=['GET'])
-def batch():
+@app.route("/batch", defaults={'personnummer': None}, methods=['GET'])
+@app.route("/batch/<personnummer>", methods=['GET'])
+def batch(personnummer):
     if request.method == 'GET':
-        person = Person()
+        if personnummer is not None:
+            personnummer = personnummer+".json"
+        person = Person(file_name=personnummer)
         return jsonify(person.batch)
     
 if __name__ == "__main__":

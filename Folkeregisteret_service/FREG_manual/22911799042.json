@@ -1,0 +1,419 @@
+{
+  "falskIdentitet": null,
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:29.525Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "status": "iBruk",
+      "foedselsEllerDNummer": "22911799042",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "identitetsgrunnlag": null,
+  "kontaktinformasjonForDoedsbo": null,
+  "legitimasjonsdokument": null,
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-12-22T16:09:29.525Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-22T16:09:29.525Z",
+      "opphoerstidspunkt": null,
+      "status": "bosatt"
+    }
+  ],
+  "utlendingsmyndighetenesIdentifikasjonsnummer": null,
+  "utenlandskPersonidentifikasjon": null,
+  "deltBosted": null,
+  "kjoenn": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "kjoenn": "kvinne"
+    }
+  ],
+  "foedsel": [
+    {
+      "ajourholdstidspunkt": "2021-04-19T08:18:28.988Z",
+      "erGjeldende": true,
+      "kilde": "Synutopia",
+      "aarsak": "endringIFoedsel",
+      "gyldighetstidspunkt": "2021-02-11T01:00:43.211Z",
+      "opphoerstidspunkt": null,
+      "foedselsdato": "2017-11-22",
+      "foedselsaar": "2017",
+      "foedested": null,
+      "foedekommuneINorge": null,
+      "foedeland": null
+    }
+  ],
+  "foedselINorge": null,
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-12-23T11:09:19.516Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2017-11-21T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "26919398832",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-12-23T11:09:19.516Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2017-11-21T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "relatertPerson": "11879597511",
+      "relatertPersonUtenFolkeregisteridentifikator": null,
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    }
+  ],
+  "sivilstand": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "sivilstand": "ugift",
+      "sivilstandsdato": "2020-12-18",
+      "myndighet": null,
+      "kommune": null,
+      "sted": null,
+      "utland": null,
+      "relatertVedSivilstand": null
+    }
+  ],
+  "doedsfall": null,
+  "navn": [
+    {
+      "ajourholdstidspunkt": "2021-01-30T03:16:50.563Z",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2018-12-31T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "fornavn": "USNOBBET",
+      "mellomnavn": null,
+      "etternavn": "SVIGERSØNN",
+      "forkortetNavn": "SVIGERSØNN USNOBBET",
+      "originaltNavn": null
+    }
+  ],
+  "adressebeskyttelse": null,
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2021-06-14T13:56:16.113Z",
+      "erGjeldende": true,
+      "kilde": "Synutopia",
+      "aarsak": "Syntetisk datagenerering",
+      "gyldighetstidspunkt": "2021-06-14T13:56:16.113Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "5412",
+        "bruksenhetsnummer": null,
+        "bruksenhetstype": null,
+        "adressenavn": "Grovfjordveien",
+        "adressenummer": {
+          "husnummer": "1629",
+          "husbokstav": null
+        },
+        "adressekode": "1124",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "GROVFJORD",
+          "postnummer": "9446"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": null,
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2021-06-10T02:13:31.311Z",
+      "erGjeldende": false,
+      "kilde": "Synutopia",
+      "aarsak": "Syntetisk datagenerering",
+      "gyldighetstidspunkt": "2021-06-10T02:13:31.311Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "5412",
+        "bruksenhetsnummer": null,
+        "bruksenhetstype": null,
+        "adressenavn": "Blåfjellveien",
+        "adressenummer": {
+          "husnummer": "519",
+          "husbokstav": null
+        },
+        "adressekode": "1087",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "TOVIK",
+          "postnummer": "9445"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": null,
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2021-02-20T07:25:52.512Z",
+      "erGjeldende": false,
+      "kilde": "Synutopia",
+      "aarsak": "Syntetisk datagenerering",
+      "gyldighetstidspunkt": "2021-02-20T07:25:52.512Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "3035",
+        "bruksenhetsnummer": null,
+        "bruksenhetstype": null,
+        "adressenavn": "Korslundløkken",
+        "adressenummer": {
+          "husnummer": "16",
+          "husbokstav": null
+        },
+        "adressekode": "10257",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "MINNESUND",
+          "postnummer": "2092"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": null,
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": null,
+      "grunnkrets": null,
+      "stemmekrets": null,
+      "skolekrets": null,
+      "kirkekrets": null
+    },
+    {
+      "ajourholdstidspunkt": "2021-02-02T05:14:26.685Z",
+      "erGjeldende": false,
+      "kilde": "DP055_veinummer",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Ullern Gårds vei",
+        "adressenummer": {
+          "husnummer": "11",
+          "husbokstav": "K"
+        },
+        "adressekode": "20599",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0382"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "285800045",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-17",
+      "grunnkrets": 5401,
+      "stemmekrets": 602,
+      "skolekrets": 302,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2021-01-28T15:29:33.044Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Ullern Gårds vei",
+        "adressenummer": null,
+        "adressekode": "20599",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0382"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "285800045",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-17",
+      "grunnkrets": 5401,
+      "stemmekrets": 602,
+      "skolekrets": 302,
+      "kirkekrets": 1
+    },
+    {
+      "ajourholdstidspunkt": "2021-01-08T13:52:33.021Z",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "vegadresse": {
+        "kommunenummer": "1122",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Turnhallveien",
+        "adressenummer": null,
+        "adressekode": "1094",
+        "adressetilleggsnavn": null,
+        "poststed": {
+          "poststedsnavn": "ÅLGÅRD",
+          "postnummer": "4330"
+        },
+        "coAdressenavn": null
+      },
+      "matrikkeladresse": null,
+      "ukjentBosted": null,
+      "adresseIdentifikatorFraMatrikkelen": "37619998",
+      "naerAdresseIdentifikatorFraMatrikkelen": null,
+      "adressegradering": "ugradert",
+      "flyttedato": "2020-12-17",
+      "grunnkrets": 101,
+      "stemmekrets": 1,
+      "skolekrets": 1,
+      "kirkekrets": 2
+    }
+  ],
+  "oppholdsadresse": null,
+  "innflytting": null,
+  "utflytting": null,
+  "brukAvSamiskSpraak": null,
+  "forholdTilSametingetsValgmanntall": null,
+  "preferertKontaktadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "Turnhallveien",
+          "4330 ÅLGÅRD",
+          "Norge"
+        ],
+        "landkode": null
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": null,
+      "opphoerstidspunkt": null,
+      "adressegradering": "ugradert",
+      "postboksadresse": null,
+      "vegadresse": null,
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Turnhallveien",
+          "4330 ÅLGÅRD",
+          "Norge"
+        ],
+        "poststed": null
+      },
+      "adresseIdentifikatorFraMatrikkelen": null
+    }
+  ],
+  "postadresseIUtlandet": null,
+  "foreldreansvar": [
+    {
+      "ajourholdstidspunkt": "2021-04-08T14:19:08.087Z",
+      "erGjeldende": true,
+      "kilde": "DP051_korr_famfrel",
+      "aarsak": "DP051_korr_famfrel",
+      "gyldighetstidspunkt": "1983-06-10T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "ansvar": "felles",
+      "ansvarssubjekt": "22911799042",
+      "ansvarlig": "26919398832",
+      "ansvarligOrganisasjon": null,
+      "ansvarligUtenIdentifikator": null,
+      "ansvarssubjektUtenIdentifikator": null
+    },
+    {
+      "ajourholdstidspunkt": "2021-04-08T14:19:08.081Z",
+      "erGjeldende": true,
+      "kilde": "DP051_korr_famfrel",
+      "aarsak": "DP051_korr_famfrel",
+      "gyldighetstidspunkt": "1983-06-10T22:00:00Z",
+      "opphoerstidspunkt": null,
+      "ansvar": "felles",
+      "ansvarssubjekt": "22911799042",
+      "ansvarlig": "11879597511",
+      "ansvarligOrganisasjon": null,
+      "ansvarligUtenIdentifikator": null,
+      "ansvarssubjektUtenIdentifikator": null
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "ajourholdstidspunkt": null,
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": null,
+      "gyldighetstidspunkt": "2020-12-17T23:00:00Z",
+      "opphoerstidspunkt": null,
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-12-18"
+    }
+  ],
+  "bibehold": null,
+  "opphold": null,
+  "vergemaalEllerFremtidsfullmakt": null
+}

@@ -4,6 +4,7 @@ from os.path import isfile, join
 import pathlib
 import json
 import random
+from werkzeug.exceptions import BadRequest, HTTPException
 
 class Person:
     def __init__(self, local_file_path: str = "\\FREG_manual\\", file_name: str = None, file_position_in_directory: int = -1) -> None:
@@ -19,15 +20,20 @@ class Person:
 
         # If a specific filename is set
         if file_name is not None:
-            file_to_open = freg_manual_path + files_in_directory[file_name]
+            try:
+                file_name_index = files_in_directory.index(file_name)
+            except ValueError:
+                raise BadRequest
+
+            file_to_open = freg_manual_path + files_in_directory[file_name_index]
             with open(file_to_open, "r") as file:
-                return json.loads(file)
+                return json.loads(file.read())
                 
         # If a specific position in the directory containing freg persons is set
         if file_position_in_directory >= 0:
             file_to_open = freg_manual_path + files_in_directory[file_position_in_directory]
             with open(file_to_open, "r") as file:
-                return json.loads(file)
+                return json.loads(file.read())
 
         # If no file is specified, pick a random file
         else:
@@ -71,6 +77,7 @@ class Person:
         
         return False
 
+    # Helper function to populate the target_dict with values from the original_dict
     def _copy_key_from_dict_to_target(self, key: str, original_dict: dict, target_dict: dict):
         try:
             target_dict[key] = original_dict[key]
@@ -194,7 +201,7 @@ class Person:
 
             for i in range(len(self._foreldreansvar)):
                 if "erGjeldende" in self._foreldreansvar[i] and self._foreldreansvar[i]["erGjeldende"]:
-                    self._copy_key_from_dict_to_target("ansvar", self._foreldreansvar[i], ansvar)
+                    self._copy_key_from_dict_to_target("ansvar", self._foreldreansvar[i], ansvar[i])
                     self._copy_key_from_dict_to_target("ansvarssubjekt", self._foreldreansvar[i], ansvar[i])
                     self._copy_key_from_dict_to_target("ansvarlig", self._foreldreansvar[i], ansvar[i])
                     self._copy_key_from_dict_to_target("ansvarligUtenIdentifikator", self._foreldreansvar[i], ansvar[i])
@@ -208,7 +215,7 @@ class Person:
         self._copy_key_from_dict_to_target("foedselsaar", self._foedsel[0], birth)
         self._copy_key_from_dict_to_target("foedselsdato", self._foedsel[0], birth)
 
-        return self._foedsel
+        return birth
 
     # All relevant information on a person
     @property
@@ -225,11 +232,15 @@ class Person:
             "foreldreansvar": self.foreldreansvar,
             "foedsel": self.foedsel
         }
-    
-# person = Person()
-
-# for key in person.batch:
-#     print (person.batch[key])
 
 
-# print (len(person._bostedsadresse))
+# from datetime import date, datetime
+# def list_personnummer_of_adults():
+#     for i in range(24):
+#         person = Person(file_position_in_directory=i)
+#         date_of_birth = datetime.strptime(person.foedsel["foedselsdato"], "%Y-%m-%d").date()
+#         if date_of_birth < date(2003, 1, 1):
+#             print (person.identifikasjonsnummer["foedselsEllerDNummer"])
+#             # print (date_of_birth)
+
+# list_personnummer_of_adults()
