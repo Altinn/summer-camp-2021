@@ -252,5 +252,5 @@ class Person:
 
 # list_personnummer_of_adults()
 
-person = Person()
-print (person.get_number_of_files_in_directory())
+# person = Person()
+# print (person.get_number_of_files_in_directory())
