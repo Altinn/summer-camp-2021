@@ -1,5 +1,6 @@
 from flask import Flask, request
 from flask.json import jsonify
+from werkzeug.utils import escape
 from fregservice import Person
 
 app = Flask(__name__)
@@ -7,6 +8,11 @@ app = Flask(__name__)
 # powershell: 
 # $env:FLASK_APP = path
 # flask run
+
+@app.route("/", methods=["GET"])
+def root():
+    if request.method == "GET":
+        return escape("<p>This is the root :)</p>")
 
 @app.route("/person", defaults={'personnummer': None}, methods=['GET'])
 @app.route("/person/<personnummer>", methods=['GET'])
