@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def root():
     if request.method == "GET":
-        return escape("<p>This is the root :)</p>")
+        return escape("This is the root :)")
 
 @app.route("/person", defaults={'personnummer': None}, methods=['GET'])
 @app.route("/person/<personnummer>", methods=['GET'])
