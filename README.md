@@ -8,7 +8,7 @@ Det skal utarbeides brukersentrerte konsepter for en sammenhengende proaktiv tje
 
 #### Teamsammensetning 
 
-Fem systemutviklere, to designere, to jurister og en forvaltningsinformatiker.  
+Fem systemutviklere, to designere, to jurister og én forvaltningsinformatiker.  
 ![Illustrasjon av teamet](https://github.com/Altinn/summer-camp-2021/blob/main/Misc/Teamet.png "Illustrasjon av teamet")
 
 #### Prosjektets varighet 
@@ -18,11 +18,7 @@ Fem systemutviklere, to designere, to jurister og en forvaltningsinformatiker.
 
 
 ### Repositories
-Oversikt over sammensetningen av moduler:
-
-![Oversiktsdiagram over moduler](https://github.com/Altinn/summer-camp-2021/blob/main/Documentation/Architecture/Microservice%20overview.png)
-
-
+Løsningen er satt sammen av fem mikrotjenester som til sammen utgjør backend, pluss en react app som frontend. Dokumentasjon finnes i deres respektive repositories.
 
 Type | Link til repo | Beskrivelse
 --- | --- | ---
@@ -33,11 +29,7 @@ Backend | [Skatteservice](https://github.com/Digihelgeland-Sommercamp/skatteserv
 Backend | [Folkeregservice](https://github.com/Digihelgeland-Sommercamp/fregService) | Modul som henter mockdata basert på data fra Folkeregistere
 Backend | [Expose user](https://github.com/Digihelgeland-Sommercamp/exposeUser) | Modul som har ansvar for interaksjon med intern database
 
+Oversikt over sammensetningen av moduler:
 
+![Oversiktsdiagram over moduler](https://github.com/Altinn/summer-camp-2021/blob/main/Documentation/Architecture/Microservice%20overview.png)
 
-/// Kladd
-- Overordna oversikt over alle repoene
-  - Klassediagram osv
-- Linker til alle repoer 
-- Alle repoer linker tilbake til dette
-- 
