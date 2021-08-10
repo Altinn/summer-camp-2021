@@ -9,7 +9,7 @@ Det skal utarbeides brukersentrerte konsepter for en sammenhengende proaktiv tje
 #### Teamsammensetning 
 
 Fem systemutviklere, to designere, to jurister og en forvaltningsinformatiker.  
-![Bilde av vårses]()
+![Illustrasjon av teamet](https://github.com/Altinn/summer-camp-2021/blob/main/Misc/Teamet.png "Illustrasjon av teamet")
 
 #### Prosjektets varighet 
 
@@ -20,7 +20,7 @@ Fem systemutviklere, to designere, to jurister og en forvaltningsinformatiker.
 ### Repositories
 Oversikt over sammensetningen av moduler:
 
-![Oversiktsdiagram over moduler]()
+![Oversiktsdiagram over moduler](https://github.com/Altinn/summer-camp-2021/blob/main/Documentation/Architecture/Microservice%20overview.png)
 
 
 
